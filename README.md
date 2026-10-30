@@ -1,142 +1,245 @@
-# AI-Assisted Client Delivery Portfolio
+# Le Li — Full-Stack Product Developer
 
-**Codex-accelerated full-stack delivery for production web apps, multi-client systems, and AI features.**
+**Live portfolio:** https://elilma.github.io/ai-client-delivery-portfolio/
 
-![Daluobo RAG Support live product](assets/rag-live.png)
+I build AI applications, multilingual websites, learning products, and complex client systems. I use Codex to accelerate implementation while keeping architecture, business rules, review, testing, and release accountable to a human.
 
-I am a full-stack developer with approximately five years of Java and TypeScript experience. I use Codex to inspect existing code, draft scoped implementation work, and accelerate repetitive engineering tasks. I remain responsible for requirements, architecture, code review, business rules, testing, deployment, and handoff.
-
-These case studies are **sanitized**. Private client code, credentials, internal screenshots, customer data, and proprietary assets are not included. Public demos and source links appear only where publication is allowed.
-
-## Live products
-
-### Daluobo RAG Support
-
-Production knowledge-base support with tenant-scoped retrieval, cited streaming answers, fallback, and human handoff.
-
-**Live:** [xiaoluobo.cc.cd](https://xiaoluobo.cc.cd/)
+This repository is the source of truth for both the live portfolio and the GitHub project catalog. The page and this README are generated from the same `projects.json`.
 
 ![Daluobo RAG Support live product](assets/rag-live.png)
 
-### RapidSite Multilingual Website Product
+> Real screenshots are used where a usable product image exists. Client code, customer data, credentials, and private screenshots are not published. Projects without a usable screenshot are listed without a fake placeholder image.
 
-Production website delivery product with multilingual templates, content intake, and Cloudflare deployment.
+<!-- PROJECTS:START -->
+## Selected live products
 
-**Live:** [guanwang.cc.cd](https://guanwang.cc.cd/)
+### [Daluobo RAG Support](https://xiaoluobo.cc.cd/)
 
-![RapidSite live product](assets/guanwang-live.png)
+**Production RAG** · Live
 
-### PM Forge Learning Hub
+Knowledge-base support with tenant isolation, cited streaming answers, fallback, and human handoff.
 
-An email-gated 12-week product-management learning platform with structured lessons, templates, exercises, interview practice, and progress tracking.
+Stack: `React` · `TypeScript` · `Cloudflare Workers` · `D1` · `Vectorize`
 
-**Live:** [pm.daluobo.cc.cd](https://pm.daluobo.cc.cd/)
+![Daluobo RAG Support live application](assets/rag-live.png)
 
-The live application is protected by Cloudflare Access. The preview below is from the product's course material.
+[Live](https://xiaoluobo.cc.cd/) · [Source](https://github.com/ElilmA/edge-rag-support) · [Case study](case-studies/rag-support.md)
 
-![PM Forge course preview](assets/pm-forge-course-preview.png)
+### [RapidSite](https://guanwang.cc.cd/)
 
-### TenderFit
+**Multilingual website product** · Live
 
-A live tender-discovery product for smaller UK suppliers, with explainable matching, free preview, pricing, and source-linked opportunity recommendations.
+A production website-delivery product with reusable industry templates, content intake, and Cloudflare deployment.
 
-**Live:** [tenderfit.co.uk](https://tenderfit.co.uk/)
+Stack: `TypeScript` · `Vite` · `Cloudflare Pages` · `Cloudflare Workers`
 
-![TenderFit live product](assets/tenderfit-co-uk-live.png)
+![RapidSite multilingual website product](assets/guanwang-live.png)
 
-## What I can deliver
+[Live](https://guanwang.cc.cd/) · [Case study](case-studies/rapidsite.md)
 
-- **AI features for existing applications:** model API integration, RAG, citations, streaming responses, structured output, fallback logic, and human handoff.
-- **AI-native MVP development:** turn a rough brief or unfinished prototype into a tested, deployable workflow.
-- **Full-stack product delivery:** React/Vue interfaces, Java/Node APIs, PostgreSQL/MySQL, admin tools, mini programs, migrations, and Docker deployment.
-- **Existing-codebase rescue:** understand the current architecture, isolate the failing workflow, make a bounded change, and verify it across clients and failure paths.
+### [TenderFit](https://tenderfit.co.uk/)
 
-## Case studies
+**Tender discovery** · Live
 
-### Live Product: Daluobo RAG Support
+An explainable tender-discovery product for smaller UK suppliers, with free preview and email-first alerts.
 
-[Open the live product](https://xiaoluobo.cc.cd/) · [Read the RAG case study](case-studies/rag-support.md)
+Stack: `Product design` · `Responsive web` · `Cloudflare`
 
-### Live Product: RapidSite Multilingual Website Product
+![TenderFit live tender discovery product](assets/tenderfit-co-uk-live.png)
 
-[Open the live product](https://guanwang.cc.cd/) · [Read the RapidSite case study](case-studies/rapidsite.md)
+[Live](https://tenderfit.co.uk/) · [Case study](case-studies/tenderfit-co-uk.md)
 
-### Live Product: PM Forge Learning Hub
+### [PM Forge](https://pm.daluobo.cc.cd/)
 
-[Open the live product](https://pm.daluobo.cc.cd/) · [Read the PM Forge case study](case-studies/pm-forge.md)
+**Learning product** · Live · gated
 
-### Live Product: TenderFit
+A 12-week product-management learning platform with lessons, templates, exercises, interviews, and progress tracking.
 
-[Open the live product](https://tenderfit.co.uk/) · [Read the TenderFit case study](case-studies/tenderfit-co-uk.md)
+Stack: `Learning design` · `Responsive web` · `Cloudflare Access`
 
-### 1. Production RAG Support with Citations
+![PM Forge course material preview](assets/pm-forge-course-preview.png)
 
-![Production RAG support](assets/rag-live.png)
+[Live](https://pm.daluobo.cc.cd/) · [Case study](case-studies/pm-forge.md)
 
-Production knowledge-base support application with tenant-scoped retrieval, keyword fallback, cited streaming answers, model fallback, and human handoff.
+## Client systems
 
-**Evidence:** [public demo](https://xiaoluobo.cc.cd/) · [public source](https://github.com/ElilmA/edge-rag-support)
+### [P4 Parking Reservation](case-studies/parking-reservations.md)
 
-[Read the case study](case-studies/rag-support.md)
+**Reservation operations** · Client delivery
 
-### 2. Multi-Client Parking Reservation and Operations
+Customer web, mini program, API, and admin workflows for date inventory, pricing, orders, payments, and refunds.
 
-![Parking reservation mobile product](assets/p4-mobile-live.png)
+Stack: `React` · `Fastify` · `Prisma` · `PostgreSQL` · `Docker`
 
-Client-cloud delivery across a customer web app, WeChat mini program, API, and operations console, with server-side inventory, pricing, order-state, duplicate-request, and refund checks.
+![P4 parking reservation mobile application](assets/p4-mobile-live.png)
 
-**Evidence:** sanitized case study; private client code and data are not published.
+[Open project](case-studies/parking-reservations.md)
 
-[Read the case study](case-studies/parking-reservations.md)
+### [Wadang Workforce](case-studies/workforce-workflows.md)
 
-### 3. Workforce and Project Collaboration
+**Workforce workflows** · Client delivery
 
-![Workforce administration console](assets/wadang-admin-live.png)
+Registration, review, points, notifications, and permissions across a mini program, NestJS APIs, and Vue admin.
 
-AI-assisted delivery across a mini program, NestJS APIs, and a Vue admin console for registration, review, points, permissions, idempotency, and release verification.
+Stack: `NestJS` · `Vue` · `Prisma` · `PostgreSQL` · `WeChat Mini Program`
 
-**Evidence:** sanitized case study; private client code and data are not published.
+![Wadang workforce administration console](assets/wadang-admin-live.png)
 
-[Read the case study](case-studies/workforce-workflows.md)
+[Open project](case-studies/workforce-workflows.md)
 
-### 4. Legacy Commerce Reliability
+### [Jingpai Commerce Platform](case-studies/legacy-commerce.md)
 
-![Signed agreement record in a commerce application](assets/jingpai-agreement-live.png)
+**Legacy enhancement** · Client delivery
 
-Targeted improvements to existing commerce systems covering entitlements, inventory, orders, session access, configuration, product search, admin workflows, and SQL verification.
+Targeted improvements to entitlements, inventory, orders, session access, and signed agreement records.
 
-**Evidence:** sanitized case studies; existing client systems and internal data are not published.
+Stack: `PHP` · `MySQL` · `Redis` · `H5` · `Linux`
 
-[Read the case study](case-studies/legacy-commerce.md)
+![Signed agreement record in Jingpai commerce platform](assets/jingpai-agreement-live.png)
 
-### 5. Java Order Reliability Lab
+[Open project](case-studies/legacy-commerce.md)
 
-Clean-room Spring Boot case study for order idempotency, concurrency, transaction boundaries, and state consistency. No UI screenshot is reused because this project is a backend reliability lab rather than an interface product.
+### [Zhisheng Commerce Iteration](case-studies/legacy-commerce.md)
 
-**Evidence:** [public source](https://github.com/ElilmA/java-order-reliability-lab)
+**Existing-system iteration** · Client delivery
 
-[Read the case study](case-studies/java-order-reliability.md)
+Product search, homepage configuration, admin maintenance, and data checks across mini-program, Java, and Vue clients.
+
+Stack: `uni-app` · `Vue` · `Java` · `Spring Boot` · `MySQL`
+
+![Zhisheng commerce customer login](assets/zhisheng-home.png)
+
+[Open project](case-studies/legacy-commerce.md)
+
+### Liulian Distribution Platform
+
+**Distribution and commerce** · Client delivery
+
+Customer, distribution, order, product, membership, content, and back-office flows for a durian brand platform.
+
+Stack: `NestJS` · `Prisma` · `Redis` · `MinIO` · `WeChat H5`
+
+![Liulian brand and farm homepage](assets/liulian-home.png)
+
+### Sanjiaozhou Operations Platform
+
+**Operations control** · Platform delivery
+
+Order, refund, finance, companion-review, and operational risk workflows with automated acceptance checks.
+
+Stack: `NestJS` · `PostgreSQL` · `Redis` · `Vue` · `Docker`
+
+![Sanjiaozhou operations dashboard](assets/sanjiaozhou-admin.png)
+
+
+## Product and tool projects
+
+### [EdgeKey Digital Shop](https://github.com/ElilmA/edgeKey)
+
+**Cloudflare commerce** · Customized product
+
+A multilingual digital-product storefront with card-key delivery, email notifications, and order lookup.
+
+![EdgeKey DLB-SHOP mobile storefront](assets/edgekey-home.png)
+
+Stack: `Vike` · `TypeScript` · `Cloudflare Workers` · `D1` · `R2`
+
+[Open project](https://github.com/ElilmA/edgeKey)
+
+### [Daluobo API Relay](https://daluobo.cc.cd/)
+
+**AI infrastructure** · Live
+
+An OpenAI-compatible API gateway that exposes multiple AI models behind one endpoint.
+
+![Daluobo API gateway homepage](assets/daluobo-api-home.png)
+
+Stack: `API gateway` · `TypeScript` · `Cloudflare` · `OpenAI-compatible API`
+
+[Open project](https://daluobo.cc.cd/)
+
+## Complete project index
+
+| Project | Type | Status | Links |
+|---|---|---|---|
+| **Daluobo RAG Support** — Knowledge-base support with tenant isolation, cited streaming answers, fallback, and human handoff. | Live | Live | [Live](https://xiaoluobo.cc.cd/) · [Source](https://github.com/ElilmA/edge-rag-support) · [Case](case-studies/rag-support.md) |
+| **RapidSite** — A production website-delivery product with reusable industry templates, content intake, and Cloudflare deployment. | Live | Live | [Live](https://guanwang.cc.cd/) · [Case](case-studies/rapidsite.md) |
+| **TenderFit** — An explainable tender-discovery product for smaller UK suppliers, with free preview and email-first alerts. | Live | Live | [Live](https://tenderfit.co.uk/) · [Case](case-studies/tenderfit-co-uk.md) |
+| **PM Forge** — A 12-week product-management learning platform with lessons, templates, exercises, interviews, and progress tracking. | Live | Live · gated | [Live](https://pm.daluobo.cc.cd/) · [Case](case-studies/pm-forge.md) |
+| **P4 Parking Reservation** — Customer web, mini program, API, and admin workflows for date inventory, pricing, orders, payments, and refunds. | Client | Client delivery | [Case](case-studies/parking-reservations.md) |
+| **Wadang Workforce** — Registration, review, points, notifications, and permissions across a mini program, NestJS APIs, and Vue admin. | Client | Client delivery | [Case](case-studies/workforce-workflows.md) |
+| **Jingpai Commerce Platform** — Targeted improvements to entitlements, inventory, orders, session access, and signed agreement records. | Client | Client delivery | [Case](case-studies/legacy-commerce.md) |
+| **Zhisheng Commerce Iteration** — Product search, homepage configuration, admin maintenance, and data checks across mini-program, Java, and Vue clients. | Client | Client delivery | [Case](case-studies/legacy-commerce.md) |
+| **Liulian Distribution Platform** — Customer, distribution, order, product, membership, content, and back-office flows for a durian brand platform. | Client | Client delivery | — |
+| **Sanjiaozhou Operations Platform** — Order, refund, finance, companion-review, and operational risk workflows with automated acceptance checks. | Client | Platform delivery | — |
+| **EdgeKey Digital Shop** — A multilingual digital-product storefront with card-key delivery, email notifications, and order lookup. | Tool | Customized product | [Source](https://github.com/ElilmA/edgeKey) |
+| **Daluobo API Relay** — An OpenAI-compatible API gateway that exposes multiple AI models behind one endpoint. | Live | Live | [Live](https://daluobo.cc.cd/) · [Source](https://github.com/ElilmA/daluobo) |
+| **TomGo Studio** — AI-native UI design, prototyping, code export, and publishing workspace with project history and quotas. | AI product | Working product | — |
+| **SellerKit AI** — Text and image generation, asset storage, async jobs, idempotent claims, retries, and failure states. | AI product | Working MVP | — |
+| **ReleaseGuard AI** — A browser-based release verification workflow with evidence capture, URL policy, and GitHub webhook boundaries. | AI product | Prototype | — |
+| **Career Agent** — A job-search workflow prototype built around deterministic matching, explicit approvals, and idempotent actions. | AI product | Prototype | — |
+| **CodeRelay** — A mobile-first remote gateway for Codex and AI coding agents. | Tool | Open source | [Source](https://github.com/ElilmA/CodeRelay) |
+| **Xianyu Super Butler** — A customized resale-operations toolkit for listing, fulfillment, reviews, and AI-assisted workflows. | Tool | Customized open source | [Source](https://github.com/ElilmA/xianyu-super-butler) |
+| **AI Goofish Monitor** — A Playwright and AI monitoring workflow for multi-task marketplace discovery and analysis. | Tool | Customized open source | [Source](https://github.com/ElilmA/ai-goofish-monitor) |
+| **Daily Stock Analysis** — A multi-market data and LLM analysis system with dashboards, news, and scheduled notifications. | Tool | Customized open source | [Source](https://github.com/ElilmA/daily_stock_analysis) |
+| **WeChat Intelligence Hub** — A local-first WeChat intelligence workflow with CLI search, daily briefings, and opportunity tracking. | Tool | Customized open source | [Source](https://github.com/ElilmA/wechat-intelligence-hub) |
+| **Agent Vision Toolkit** — A visual toolkit for text-only coding agents: image Q&A, long-screenshot OCR, UI restoration, and GUI automation references. | Tool | Customized open source | [Source](https://github.com/ElilmA/agent-vision-toolkit) |
+| **Java Order Reliability Lab** — A clean-room Spring Boot lab for idempotency, concurrency, transaction boundaries, and state consistency. | Lab | Open source | [Source](https://github.com/ElilmA/java-order-reliability-lab) · [Case](case-studies/java-order-reliability.md) |
+| **Aurora Audio Bars** — A Windows system-audio visualizer with real-time neon energy bars. | Lab | Open source | [Source](https://github.com/ElilmA/aurora-audio-bars) |
+| **HelperX** — A desktop utility for academic-resource access support and subscription management. | Lab | Open source | [Source](https://github.com/ElilmA/HelperX) |
+
+## Public repositories
+
+| Repository | Type | Description |
+|---|---|---|
+| [agent-vision-toolkit](https://github.com/ElilmA/agent-vision-toolkit) | Customized fork | 为纯文本模型"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode |
+| [ai-client-delivery-portfolio](https://github.com/ElilmA/ai-client-delivery-portfolio) | Original | Sanitized AI-assisted full-stack and RAG client delivery case studies |
+| [ai-goofish-monitor](https://github.com/ElilmA/ai-goofish-monitor) | Customized fork | 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。 |
+| [ARTEX](https://github.com/ElilmA/ARTEX) | Customized fork | ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。 |
+| [artex2](https://github.com/ElilmA/artex2) | Customized fork | ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军 |
+| [aurora-audio-bars](https://github.com/ElilmA/aurora-audio-bars) | Original | Windows system audio aurora visualizer: neon gradient energy bars growing from screen edges, 60fps real-time |
+| [clicodelog](https://github.com/ElilmA/clicodelog) | Customized fork | Browse & Inspect CLI agents : Claude Code, Codex, Gemini CLI code & conversation history |
+| [CodeRelay](https://github.com/ElilmA/CodeRelay) | Original | Mobile-first remote gateway for Codex and AI coding agents. |
+| [daily_stock_analysis](https://github.com/ElilmA/daily_stock_analysis) | Customized fork | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. |
+| [daluobo](https://github.com/ElilmA/daluobo) | Original | 大萝卜 · OpenAI 兼容 AI 模型中转站：GPT-5.5 / Claude / Gemini / DeepSeek 统一 API，注册送体验额度、每日签到送额度 |
+| [daluobo-api-examples](https://github.com/ElilmA/daluobo-api-examples) | Original | 大萝卜 API 接入示例：低价 OpenAI 兼容 AI API 中转站（GPT / Claude / Gemini / DeepSeek），curl / Python / Node.js 快速上手 |
+| [detla](https://github.com/ElilmA/detla) | Customized fork | 三角洲护航小程序源码分享 使用springboot + vue +uniapp 开发 ，支持微信小程序， 支持唤起微信支付 |
+| [dopamine-core](https://github.com/ElilmA/dopamine-core) | Customized fork | Synthetic dopamine reward signals for AI agents — make them actually want to make money, not just follow instructions. |
+| [edge-rag-support](https://github.com/ElilmA/edge-rag-support) | Original | Multi-tenant Cloudflare RAG support SaaS with tenant isolation, citations, queues, D1, R2, Vectorize and 59 tests |
+| [edgeKey](https://github.com/ElilmA/edgeKey) | Customized fork | 基于 Vike 驱动的全栈卡密商城系统，一键部署至 Cloudflare Workers。\| A Vike-powered full-stack digital shop, one-click deploy to Cloudflare Workers. |
+| [ElilmA](https://github.com/ElilmA/ElilmA) | Original | ElilmA · 大萝卜 DLB-API 作者主页 |
+| [Fluent-Steam-Lua](https://github.com/ElilmA/Fluent-Steam-Lua) | Customized fork | 基于 WPF + Fluent Design 开发的现代化轻量级 Steam Lua 入库管理工具，目前仅适配OpenSteamTool |
+| [HelperX](https://github.com/ElilmA/HelperX) | Original | 面向科研人员、医务工作者及高校学生的学术资源访问支持、文献检索辅助、期刊资料访问体验优化与客户端订阅管理工具。 |
+| [holo-card-studio](https://github.com/ElilmA/holo-card-studio) | Customized fork | Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project. |
+| [java-order-reliability-lab](https://github.com/ElilmA/java-order-reliability-lab) | Original | Clean-room Spring Boot case study for order idempotency, concurrency, and transaction consistency |
+| [rubyworld](https://github.com/ElilmA/rubyworld) | Customized fork | Realtime online 2D game world. Built with Cloudflare Durable Objects & Pages, React, and Typescript. Inspired by Pokémon Ruby. |
+| [SteamManifestGrabber](https://github.com/ElilmA/SteamManifestGrabber) | Customized fork | Steam 清单入库提取工具。 |
+| [tenderfit-uk](https://github.com/ElilmA/tenderfit-uk) | Original | Explainable UK tender intelligence with deterministic eligibility gates, Cloudflare Workers and 58 tests |
+| [warp-clash-api](https://github.com/ElilmA/warp-clash-api) | Customized fork | No description |
+| [Web-Crawling-Stock-Data-](https://github.com/ElilmA/Web-Crawling-Stock-Data-) | Customized fork | 东方财富网股票数据爬取 |
+| [wechat-intelligence-hub](https://github.com/ElilmA/wechat-intelligence-hub) | Customized fork | Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking. |
+| [Windows-Copilot-API](https://github.com/ElilmA/Windows-Copilot-API) | Customized fork | Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing. |
+| [xianyu-super-butler](https://github.com/ElilmA/xianyu-super-butler) | Customized fork | 闲鱼超级管家是在 xianyu-auto-reply 基础上全面升级的新版本，自动滑块、发货、评价、要花、擦亮通通稳定支持，时刻维护！时刻更新！坚决保证使用世界上最强 AI模型(5.6 sol 、ops 5)进行vibecoding！ |
+<!-- PROJECTS:END -->
 
 ## How I use Codex
 
-1. **Define the contract.** Convert the request into acceptance criteria, data/API/UI tasks, permissions, edge cases, and a testable first milestone.
-2. **Give the AI context.** Point it at the relevant pages, APIs, schemas, migrations, and call chains so it reasons about the existing system instead of inventing a new one.
-3. **Delegate bounded implementation.** Use Codex for codebase navigation, repetitive edits, implementation drafts, and test scaffolding one vertical slice at a time.
+1. **Define the contract.** Convert the request into acceptance criteria, roles, data/API/UI tasks, edge cases, and a testable first milestone.
+2. **Give the AI context.** Point it at the relevant pages, APIs, schemas, migrations, and call chains so it reasons about the existing system.
+3. **Delegate bounded implementation.** Use Codex for navigation, repetitive edits, implementation drafts, and test scaffolding one slice at a time.
 4. **Review the risky parts myself.** Check authorization, amounts, inventory, transactions, idempotency, duplicate submissions, data exposure, and state transitions.
 5. **Prove the result.** Exercise happy and failure paths, inspect logs and SQL, test across clients, verify deployment, and leave setup and handoff notes.
 
-## Additional client delivery experience
-
-The wider delivery background includes order, complaint, invoice, payment, refund, withdrawal, booking, inventory, approval, attachment, entitlement, and admin workflows across Java/Spring Boot, Vue, React, TypeScript, WeChat Mini Programs, MySQL, PostgreSQL, Redis, and Docker Compose.
-
-Client names and proprietary modules are omitted from this public portfolio. Detailed walkthroughs can be provided under an appropriate NDA or during a client conversation.
-
-## Technology
-
-`TypeScript` `JavaScript` `React` `Vue` `Node.js` `NestJS` `Fastify` `Java` `Spring Boot` `MyBatis` `PostgreSQL` `MySQL` `Redis` `Prisma` `Cloudflare Workers` `D1` `R2` `Vectorize` `Workers AI` `OpenAI API` `Docker Compose`
-
-## Work with me through Upwork
+## Working with me
 
 I work best with a repository or existing application, a concrete outcome, and observable acceptance criteria. I can begin with a small diagnostic or first milestone, show a working demo early, and leave the code and setup notes ready for the next developer.
 
-This repository is a portfolio index, not an offer of client source code. All client work shown here is paraphrased and sanitized for confidentiality.
+## Maintain the portfolio
+
+Edit `projects.json`, then run:
+
+```bash
+python scripts/build_portfolio.py
+```
+
+This regenerates the project sections in `index.html` and `README.md`, plus `projects-data.js`. Public repository metadata lives in `repositories.json`.

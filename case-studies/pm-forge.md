@@ -7,6 +7,8 @@
 
 ![PM Forge course preview](../assets/pm-forge-course-preview.png)
 
+![PM Forge Cloudflare Access screen](../assets/pm-course-live.png)
+
 ## Product
 
 PM Forge is a private-beta learning platform for technical and B2B product managers. It organizes a 12-week practice curriculum around product discovery, requirements, workflows and permissions, prototyping, metrics, technical collaboration, roadmap delivery, launch operations, SaaS strategy, interview practice, and portfolio building.

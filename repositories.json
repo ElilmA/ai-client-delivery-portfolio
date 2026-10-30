@@ -1,0 +1,254 @@
+[
+  {
+    "archived": false,
+    "description": "为纯文本模型\"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/agent-vision-toolkit",
+    "language": null,
+    "name": "agent-vision-toolkit",
+    "updated_at": "2026-09-11T05:58:00Z"
+  },
+  {
+    "archived": false,
+    "description": "Sanitized AI-assisted full-stack and RAG client delivery case studies",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/ai-client-delivery-portfolio",
+    "language": "HTML",
+    "name": "ai-client-delivery-portfolio",
+    "updated_at": "2026-10-30T12:05:59Z"
+  },
+  {
+    "archived": false,
+    "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/ai-goofish-monitor",
+    "language": null,
+    "name": "ai-goofish-monitor",
+    "updated_at": "2026-09-07T08:56:30Z"
+  },
+  {
+    "archived": false,
+    "description": "ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/ARTEX",
+    "language": null,
+    "name": "ARTEX",
+    "updated_at": "2026-10-22T19:23:46Z"
+  },
+  {
+    "archived": false,
+    "description": "ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/artex2",
+    "language": null,
+    "name": "artex2",
+    "updated_at": "2026-10-22T19:25:14Z"
+  },
+  {
+    "archived": false,
+    "description": "Windows system audio aurora visualizer: neon gradient energy bars growing from screen edges, 60fps real-time",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/aurora-audio-bars",
+    "language": "C#",
+    "name": "aurora-audio-bars",
+    "updated_at": "2026-09-09T09:23:09Z"
+  },
+  {
+    "archived": false,
+    "description": "Browse & Inspect CLI agents : Claude Code, Codex, Gemini CLI code & conversation history",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/clicodelog",
+    "language": null,
+    "name": "clicodelog",
+    "updated_at": "2026-04-17T01:11:41Z"
+  },
+  {
+    "archived": false,
+    "description": "Mobile-first remote gateway for Codex and AI coding agents.",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/CodeRelay",
+    "language": "JavaScript",
+    "name": "CodeRelay",
+    "updated_at": "2026-07-22T05:20:42Z"
+  },
+  {
+    "archived": false,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/daily_stock_analysis",
+    "language": null,
+    "name": "daily_stock_analysis",
+    "updated_at": "2026-06-25T03:56:00Z"
+  },
+  {
+    "archived": false,
+    "description": "大萝卜 · OpenAI 兼容 AI 模型中转站：GPT-5.5 / Claude / Gemini / DeepSeek 统一 API，注册送体验额度、每日签到送额度",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/daluobo",
+    "language": null,
+    "name": "daluobo",
+    "updated_at": "2026-10-14T09:50:19Z"
+  },
+  {
+    "archived": false,
+    "description": "大萝卜 API 接入示例：低价 OpenAI 兼容 AI API 中转站（GPT / Claude / Gemini / DeepSeek），curl / Python / Node.js 快速上手",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/daluobo-api-examples",
+    "language": null,
+    "name": "daluobo-api-examples",
+    "updated_at": "2026-10-14T09:45:19Z"
+  },
+  {
+    "archived": false,
+    "description": "三角洲护航小程序源码分享 使用springboot + vue +uniapp 开发 ，支持微信小程序， 支持唤起微信支付",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/detla",
+    "language": null,
+    "name": "detla",
+    "updated_at": "2026-10-09T15:25:37Z"
+  },
+  {
+    "archived": false,
+    "description": "Synthetic dopamine reward signals for AI agents — make them actually want to make money, not just follow instructions.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/dopamine-core",
+    "language": null,
+    "name": "dopamine-core",
+    "updated_at": "2026-08-27T06:42:50Z"
+  },
+  {
+    "archived": false,
+    "description": "Multi-tenant Cloudflare RAG support SaaS with tenant isolation, citations, queues, D1, R2, Vectorize and 59 tests",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/edge-rag-support",
+    "language": "TypeScript",
+    "name": "edge-rag-support",
+    "updated_at": "2026-08-22T06:19:10Z"
+  },
+  {
+    "archived": false,
+    "description": "基于 Vike 驱动的全栈卡密商城系统，一键部署至 Cloudflare Workers。| A Vike-powered full-stack digital shop, one-click deploy to Cloudflare Workers.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/edgeKey",
+    "language": "TypeScript",
+    "name": "edgeKey",
+    "updated_at": "2026-07-20T04:23:21Z"
+  },
+  {
+    "archived": false,
+    "description": "ElilmA · 大萝卜 DLB-API 作者主页",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/ElilmA",
+    "language": null,
+    "name": "ElilmA",
+    "updated_at": "2026-10-30T11:44:25Z"
+  },
+  {
+    "archived": false,
+    "description": "基于 WPF + Fluent Design 开发的现代化轻量级 Steam Lua 入库管理工具，目前仅适配OpenSteamTool",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/Fluent-Steam-Lua",
+    "language": null,
+    "name": "Fluent-Steam-Lua",
+    "updated_at": "2026-09-30T04:01:05Z"
+  },
+  {
+    "archived": false,
+    "description": "面向科研人员、医务工作者及高校学生的学术资源访问支持、文献检索辅助、期刊资料访问体验优化与客户端订阅管理工具。",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/HelperX",
+    "language": null,
+    "name": "HelperX",
+    "updated_at": "2026-06-01T09:49:55Z"
+  },
+  {
+    "archived": false,
+    "description": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/holo-card-studio",
+    "language": null,
+    "name": "holo-card-studio",
+    "updated_at": "2026-09-07T08:29:18Z"
+  },
+  {
+    "archived": false,
+    "description": "Clean-room Spring Boot case study for order idempotency, concurrency, and transaction consistency",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/java-order-reliability-lab",
+    "language": "Java",
+    "name": "java-order-reliability-lab",
+    "updated_at": "2026-07-22T01:09:05Z"
+  },
+  {
+    "archived": false,
+    "description": "Realtime online 2D game world. Built with Cloudflare Durable Objects & Pages, React, and Typescript. Inspired by Pokémon Ruby.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/rubyworld",
+    "language": null,
+    "name": "rubyworld",
+    "updated_at": "2026-09-27T14:31:48Z"
+  },
+  {
+    "archived": false,
+    "description": "Steam 清单入库提取工具。",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/SteamManifestGrabber",
+    "language": null,
+    "name": "SteamManifestGrabber",
+    "updated_at": "2026-09-30T03:59:41Z"
+  },
+  {
+    "archived": false,
+    "description": "Explainable UK tender intelligence with deterministic eligibility gates, Cloudflare Workers and 58 tests",
+    "fork": false,
+    "html_url": "https://github.com/ElilmA/tenderfit-uk",
+    "language": "TypeScript",
+    "name": "tenderfit-uk",
+    "updated_at": "2026-07-20T04:03:40Z"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/warp-clash-api",
+    "language": null,
+    "name": "warp-clash-api",
+    "updated_at": "2026-06-15T16:29:07Z"
+  },
+  {
+    "archived": false,
+    "description": "东方财富网股票数据爬取",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/Web-Crawling-Stock-Data-",
+    "language": null,
+    "name": "Web-Crawling-Stock-Data-",
+    "updated_at": "2026-03-12T02:56:17Z"
+  },
+  {
+    "archived": false,
+    "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/wechat-intelligence-hub",
+    "language": null,
+    "name": "wechat-intelligence-hub",
+    "updated_at": "2026-09-07T07:28:52Z"
+  },
+  {
+    "archived": false,
+    "description": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/Windows-Copilot-API",
+    "language": "Python",
+    "name": "Windows-Copilot-API",
+    "updated_at": "2026-06-26T05:09:02Z"
+  },
+  {
+    "archived": false,
+    "description": "闲鱼超级管家是在 xianyu-auto-reply 基础上全面升级的新版本，自动滑块、发货、评价、要花、擦亮通通稳定支持，时刻维护！时刻更新！坚决保证使用世界上最强 AI模型(5.6 sol 、ops 5)进行vibecoding！",
+    "fork": true,
+    "html_url": "https://github.com/ElilmA/xianyu-super-butler",
+    "language": "Python",
+    "name": "xianyu-super-butler",
+    "updated_at": "2026-09-22T07:31:10Z"
+  }
+]
