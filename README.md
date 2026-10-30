@@ -193,7 +193,7 @@ Stack: `API gateway` · `TypeScript` · `Cloudflare` · `OpenAI-compatible API`
 | Repository | Type | Description |
 |---|---|---|
 | [agent-vision-toolkit](https://github.com/ElilmA/agent-vision-toolkit) | Customized fork | 为纯文本模型"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode |
-| [ai-client-delivery-portfolio](https://github.com/ElilmA/ai-client-delivery-portfolio) | Original | Sanitized AI-assisted full-stack and RAG client delivery case studies |
+| [ai-client-delivery-portfolio](https://github.com/ElilmA/ai-client-delivery-portfolio) | Original | Le Li — full-stack product developer portfolio: live products, client systems, AI tools and labs |
 | [ai-goofish-monitor](https://github.com/ElilmA/ai-goofish-monitor) | Customized fork | 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。 |
 | [ARTEX](https://github.com/ElilmA/ARTEX) | Customized fork | ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。 |
 | [artex2](https://github.com/ElilmA/artex2) | Customized fork | ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军 |
