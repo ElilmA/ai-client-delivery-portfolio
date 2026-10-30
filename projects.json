@@ -45,7 +45,7 @@
     "image": "assets/tenderfit-co-uk-live.png",
     "imageAlt": "TenderFit live tender discovery product",
     "url": "https://tenderfit.co.uk/",
-    "repo": null,
+    "repo": "https://github.com/ElilmA/tenderfit-uk",
     "case": "case-studies/tenderfit-co-uk.md",
     "featured": true,
     "order": 3

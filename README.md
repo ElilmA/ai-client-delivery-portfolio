@@ -1,6 +1,6 @@
 # Le Li — Full-Stack Product Developer
 
-**Live portfolio:** https://elilma.github.io/ai-client-delivery-portfolio/
+**Live portfolio:** https://elilma.github.io/ai-client-delivery-portfolio/ · **Résumé:** [PDF](assets/le-li-resume.pdf)
 
 I build AI applications, multilingual websites, learning products, and complex client systems. I use Codex to accelerate implementation while keeping architecture, business rules, review, testing, and release accountable to a human.
 
@@ -47,7 +47,7 @@ Stack: `Product design` · `Responsive web` · `Cloudflare`
 
 ![TenderFit live tender discovery product](assets/tenderfit-co-uk-live.png)
 
-[Live](https://tenderfit.co.uk/) · [Case study](case-studies/tenderfit-co-uk.md)
+[Live](https://tenderfit.co.uk/) · [Source](https://github.com/ElilmA/tenderfit-uk) · [Case study](case-studies/tenderfit-co-uk.md)
 
 ### [PM Forge](https://pm.daluobo.cc.cd/)
 
@@ -164,7 +164,7 @@ Stack: `API gateway` · `TypeScript` · `Cloudflare` · `OpenAI-compatible API`
 |---|---|---|---|
 | **Daluobo RAG Support** — Knowledge-base support with tenant isolation, cited streaming answers, fallback, and human handoff. | Live | Live | [Live](https://xiaoluobo.cc.cd/) · [Source](https://github.com/ElilmA/edge-rag-support) · [Case](case-studies/rag-support.md) |
 | **RapidSite** — A production website-delivery product with reusable industry templates, content intake, and Cloudflare deployment. | Live | Live | [Live](https://guanwang.cc.cd/) · [Case](case-studies/rapidsite.md) |
-| **TenderFit** — An explainable tender-discovery product for smaller UK suppliers, with free preview and email-first alerts. | Live | Live | [Live](https://tenderfit.co.uk/) · [Case](case-studies/tenderfit-co-uk.md) |
+| **TenderFit** — An explainable tender-discovery product for smaller UK suppliers, with free preview and email-first alerts. | Live | Live | [Live](https://tenderfit.co.uk/) · [Source](https://github.com/ElilmA/tenderfit-uk) · [Case](case-studies/tenderfit-co-uk.md) |
 | **PM Forge** — A 12-week product-management learning platform with lessons, templates, exercises, interviews, and progress tracking. | Live | Live · gated | [Live](https://pm.daluobo.cc.cd/) · [Case](case-studies/pm-forge.md) |
 | **P4 Parking Reservation** — Customer web, mini program, API, and admin workflows for date inventory, pricing, orders, payments, and refunds. | Client | Client delivery | [Case](case-studies/parking-reservations.md) |
 | **Wadang Workforce** — Registration, review, points, notifications, and permissions across a mini program, NestJS APIs, and Vue admin. | Client | Client delivery | [Case](case-studies/workforce-workflows.md) |
